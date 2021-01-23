@@ -5,6 +5,7 @@
 [build]
   command = "yarn build"
   publish = "dist"
+  functions = ".netlify/functions/"
 
 [context.deploy-preview]
   command = "yarn build:preview"
